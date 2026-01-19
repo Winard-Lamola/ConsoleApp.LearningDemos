@@ -47,7 +47,8 @@ else if (grade >= 85 && grade <= 100)
 {
     Console.WriteLine("A - Good job");
 }
-
+int gradeAfterBonus = grade >= 0 && grade <= 100 ? grade + 10 : 0;
+Console.WriteLine($"Grade after bonus: {gradeAfterBonus}");
 
 Console.WriteLine("-------------- Complex IF..ELSE IF Results End -------------------");
 
