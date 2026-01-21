@@ -2,6 +2,7 @@
 
 // Prompt for input
 Console.Write("Please enter student's grade: ");
+// Global viariable / Global Scope
 int grade = Convert.ToInt32(Console.ReadLine());
 
 // Simple If.....Else....Statement - Decide to print pass or fail based on input
